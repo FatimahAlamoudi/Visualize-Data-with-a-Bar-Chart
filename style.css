@@ -1,0 +1,33 @@
+.visHolder{
+    position: absolute;
+    border: 2px solid white;
+    margin-top: 30px;
+}
+
+body{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#tooltip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    padding: 10px;
+    font: 12px;
+    background-color: rgb(46, 62, 82);
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+#datatype{
+    margin: 5px;
+}
+#widthofbar{
+    margin: 5px;
+}
